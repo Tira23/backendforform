@@ -1,5 +1,5 @@
 <?php
 //    $login = $_GET['login'];
 //    $email = $_GET['email'];
-    header('content-type: text/html');
-    echo 'all ok';
+    header('Content-Type: application/json');
+    echo json_encode('all ok');
